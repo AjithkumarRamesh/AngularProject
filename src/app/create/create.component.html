@@ -1,0 +1,28 @@
+<p>create works!</p>
+<div>
+    <h1>CREATE EMPLOYEE</h1>
+
+<form (ngSubmit)="onsubmit()">
+        <div>
+    <label for="id">Id</label>
+    <input type="number" [(ngModel)]="emp.id" name="id">
+    <br>
+        </div>
+        <div>
+    <label for="name">Name</label>
+    <input type="text"[(ngModel)]="emp.name" name="name">
+    <br>
+</div>
+<div>
+    <label for="age">Age</label>
+    <input type="number"[(ngModel)]="emp.age" name="age">
+    <br>
+</div>
+<div>
+    <label for ="gender">Gender</label>
+    <input type="text"[(ngModel)]="emp.gender" name="gender">
+    <br>
+</div>
+<button type="submit">SUBMIT</button>
+</form>
+</div>
