@@ -12,9 +12,7 @@ export class CreateComponent implements OnInit {
   constructor(private service : EmployeeService, private route :Router){}
   ngOnInit(): void{}
   emp:Employee_frontend=new Employee_frontend();
-  gotoEmplist(){
-    this.route.navigate(['list']);  
-  }
+ 
   onsubmit(){
     this.service.postvalue(this.emp).subscribe(
       data=>{
@@ -23,6 +21,9 @@ export class CreateComponent implements OnInit {
       },
       err=>console.error(err)
     );
+  }
+  gotoEmplist(){
+    this.route.navigate(['list']);  
   }
 
 }

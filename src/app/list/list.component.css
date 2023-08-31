@@ -1,0 +1,29 @@
+h1{
+    background-color: rgba(8, 206, 228, 0.838);
+    text-align: center;
+}
+div{
+    background-color: aquamarine;
+}
+*{
+    background-color: rgba(9, 210, 232, 0.944);
+    text-align: center;
+    
+}
+button{
+    background-color: azure;
+}
+button:hover{
+    background-color: rgb(188, 188, 28);
+    opacity: 0.8;
+}
+th{
+    background-color: rgb(211, 70, 27);
+    font-size: larger;
+    font-style: inherit;
+}
+td{
+    font-size: larger;
+    font-style: inherit;
+    border: 10px 8px;
+}

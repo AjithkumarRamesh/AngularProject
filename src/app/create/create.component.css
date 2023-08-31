@@ -1,0 +1,59 @@
+
+button{
+    background-color: aliceblue;
+    font-size: large;
+    margin-top: 20px;
+    padding: 8px 25px;
+}
+button:hover{
+    background-color: rgb(233, 36, 22);
+    opacity: 0.8;
+    text-decoration: underline;
+}
+div{
+    background-color: rgb(147, 194, 205);
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+    color: rgba(218, 33, 33, 0.868);
+    width: 600px;
+    margin: 6px auto;
+   
+ 
+   
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    background-image: linear-gradient(rgba(209, 229, 171, 0.884),rgb(172, 168, 168));
+   
+    
+}
+input[type=text],[type=number] {
+    background-color: #cccccccf;
+    width: 40%;
+    padding: 8px 8px;
+    margin: 10px 6px;
+    display: inline-block;
+    border: 7px solid #040303;
+    box-sizing:border-box ;
+    border: 2px solid rgb(16, 19, 19);
+    box-shadow: 2px;
+    border-radius: 1px solid ;
+
+}
+input :focus{
+    background-color: rgba(178, 176, 170, 0.064);
+}
+input:hover{
+    background-color: rgb(235, 146, 45);
+}
+  body{ 
+    box-sizing: border-box;
+  
+}
+label{
+    display: block;
+    text-align: center;
+}

@@ -13,11 +13,12 @@ const routes: Routes = [
     path:'list',component : ListComponent
   },
   {
-    path:'update',component:UpdateComponent
+    path:'update/:id',component:UpdateComponent
   },
   {
-    path:'view',component:ViewComponent
-  },{
+    path:'view/:id',component:ViewComponent
+  },
+  {
     path:'',redirectTo:'list', pathMatch:'full'
   }
 ];

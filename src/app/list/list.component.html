@@ -1,1 +1,27 @@
 <p>list works!</p>
+<div>
+    <h1>Employee List</h1>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.age}}</td>
+            <td>{{emp.gender}}</td>
+            <td>
+                <button (click)="update(emp.id)">UPDATE</button>
+                <button (click)="view(emp.id)">VIEW</button>
+                <button (click)="delete(emp.id)">DELETE</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
